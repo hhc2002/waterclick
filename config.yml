@@ -1,10 +1,13 @@
 INTERACTIVE_MODELS_PATH: "./weights"
-EXPS_PATH: "/playpen-raid2/qinliu/models/model_0125_2023"
-
+#EXPS_PATH: "/playpen-raid2/qinliu/models/model_0125_2023"
+EXPS_PATH: "./logs"
 # Evaluation datasets
-GRABCUT_PATH: "/playpen-raid2/qinliu/data/GrabCut"
-BERKELEY_PATH: "/playpen-raid2/qinliu/data/Berkeley"
-DAVIS_PATH: "/playpen-raid2/qinliu/data/DAVIS345"
+GRABCUT_PATH: "./dataset/GrabCut"
+#GRABCUT_PATH: "/playpen-raid2/qinliu/data/GrabCut"
+#BERKELEY_PATH: "./dataset/Berkeley"
+BERKELEY_PATH: "./dataset/water"
+#DAVIS_PATH: "/playpen-raid2/qinliu/data/DAVIS345"
+DAVIS_PATH: "./dataset/DAVIS"
 COCO_MVAL_PATH: "/playpen-raid2/qinliu/data/COCO_MVal"
 BraTS_PATH: "/playpen-raid2/qinliu/data/BraTS20"
 ssTEM_PATH: "/playpen-raid2/qinliu/data/ssTEM"
@@ -40,3 +43,4 @@ IMAGENET_PRETRAINED_MODELS:
   MAE_BASE: "./weights/pretrained/mae_pretrain_vit_base.pth"
   MAE_LARGE: "./weights/pretrained/mae_pretrain_vit_large.pth"
   MAE_HUGE: "./weights/pretrained/mae_pretrain_vit_huge.pth"
+  #COCO_BASE:"./weights/cocolvis_vit_base.pth"
